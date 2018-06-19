@@ -20,7 +20,7 @@ describe('Dinosaur', function() {
   });
 
   it('should have an average number of visitors it attracts per day', function () {
-    const actual = dinosaur.guestsAttractedPerDay;
+    const actual = dinosaur.getGuestsAttractedPerDay();
     assert.strictEqual(actual, 50);
   });
 
