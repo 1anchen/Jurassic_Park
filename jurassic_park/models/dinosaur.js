@@ -3,5 +3,8 @@ const Dinosaur = function (species, diet, guestsAttractedPerDay) {
   this.diet = diet;
   this.guestsAttractedPerDay = guestsAttractedPerDay;
 }
+Dinosaur.prototype.getGuestsAttractedPerDay = function(){
+  return this.guestsAttractedPerDay;
+}
 
 module.exports = Dinosaur;
